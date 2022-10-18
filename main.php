@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <a href="#" class="btn btn-primary">link</a>
+    
     <!-- =========== Custom Js File========== -->
  <script src="main.js"></script>
     <!-- ============= bootstrap Js Link============= -->
