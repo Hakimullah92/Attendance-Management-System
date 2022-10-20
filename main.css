@@ -12,3 +12,61 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+
+/* =========== Preloader Styling=============== */
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:#fff url(./images/MainPage/grey.gif) no-repeat center center;
+    z-index: 99999;
+}
+body{
+    background: #eee;
+}
+.container .logo{
+    /* border: 2px solid red; */
+    width: 8rem;
+    height: 8rem;
+}
+.logo img{
+    width: 100%;
+}
+main .container-fluid{
+    /* border: 1px solid red; */
+}
+.bottom{
+    gap: 8rem;
+}
+.form-container{
+    min-height: 370px;
+    box-shadow: 0px 0p 1rem #ccc;
+    border-radius: 8px;
+    border: 1px solid purple;
+}
+.heading{
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+.input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom:1px solid grey;
+    outline: none;
+    background:transparent;
+}
+.login{
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:810px) {
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
