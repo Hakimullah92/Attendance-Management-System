@@ -26,15 +26,11 @@ body{
     background: #eee;
 }
 .container .logo{
-    /* border: 2px solid red; */
     width: 8rem;
     height: 8rem;
 }
 .logo img{
     width: 100%;
-}
-main .container-fluid{
-    /* border: 1px solid red; */
 }
 .bottom{
     gap: 8rem;
@@ -61,12 +57,4 @@ main .container-fluid{
     border-radius: 25px;
     border: none;
     outline: none;
-}
-
-@media screen and (max-width:810px) {
-    .bottom{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
 }
