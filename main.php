@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
+    <!-- =========== Animated.css link========== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- ========= bootstrap CSS file============ -->
 
@@ -22,7 +25,7 @@
 
     <div class="header">
       <div class="container-fluid bg-primary p-4">
-         <h1 class="text-center text-light fs-1 fw-bold">Attendance Management System</h1>
+         <h1 class="text-center text-light fs-1 fw-bold animate__animated animate__slideInUp animate__delay-2s animate__repeat-2">Attendance Management System</h1>
       </div>
     </div>
     
@@ -55,7 +58,7 @@
 
 </div>
          <div class="col-3 col-xl-3 col-sm-5 bg-light form-container ps-4 pe-4 ">
-            <div class="heading col-10 m-auto p-3 fs-1 fw-bold text-center text-primary">SIGNIN</div>
+            <div class="heading col-10 m-auto p-3 fs-1 fw-bold text-center text-primary animate__animated animate__zoomIn animate__delay-2s animate__infinite">SIGNIN</div>
             <div class="row g-4 align-items-center justify-content-center mt-4">
   <div class="col-9 col-xl-10 col-md-12">
     <select name="" id="" class="w-100 pt-2 pb-2 ps-3 pe-3 fs-3 select">
