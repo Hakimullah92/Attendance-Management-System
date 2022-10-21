@@ -11,6 +11,7 @@ html{
 body
 {
     font-family: 'Poppins', sans-serif;
+    background: #eee;
 }
 
 /* =========== Preloader Styling=============== */
@@ -22,9 +23,7 @@ body
     background:#fff url(./images/MainPage/grey.gif) no-repeat center center;
     z-index: 99999;
 }
-body{
-    background: #eee;
-}
+
 .container .logo{
     width: 8rem;
     height: 8rem;
