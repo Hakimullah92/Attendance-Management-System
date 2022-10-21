@@ -29,7 +29,7 @@
         </div>
     </div>
   </header>
-  <div class="sidebar">
+ <div class="sidebar">
     <div class="close-icon">
     <ion-icon name="close-outline" id="close"></ion-icon>
     </div>
