@@ -9,53 +9,64 @@
     <!-- ============ Animated.css link=============== -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     <!-- ===================== Bootstrap CSS File==================== -->
+     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+
     <!-- ================ CSS File=============== -->
     <link rel="stylesheet" href="header.css">
 </head>
 <body>
 
   <header class="header">
-    <div class="menu-icon">
-    <ion-icon name="menu-outline" id="menu"></ion-icon>
+  <nav class="navbar navbar-light bg-primary fixed-top">
+  <div class="container-fluid pt-3 pb-3 ps-5 pe-5">
+    <a class="navbar-brand fs-1 fw-bold text-white animate__animated animate__zoomIn animate__delay-1s animate__infinite " href="#">AMS</a>
+    <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon text-white fs-4"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-warning text-center fs-1" id="offcanvasDarkNavbarLabel">Attendance System</h5>
+        <button type="button" class="btn-close btn-close-danger fs-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-dark ">
+        <ul class="navbar-nav justify-content-end mt-5 flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link  link active text-light fs-2 mb-3 text-center" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Students</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Subjects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Monthly Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Overall Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Take Attendance</a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
-    <h1 class="title animate__animated animate__flash animate__delay-2s animate__repeat-infinite">Attendance Management System</h1>
-
-    <div class="profile">
-        <div class="pic">
-            <img src="./images/Header/pic.jpeg" alt="">
-        </div>
-        <div class="icon">
-        <ion-icon name="caret-up-outline" class='arrow'></ion-icon>
-        </div>
-    </div>
+  </div>
+</nav>
   </header>
- <div class="sidebar">
-    <div class="close-icon">
-    <ion-icon name="close-outline" id="close"></ion-icon>
-    </div>
-    <div class="logo">
-        <img src="./images/Header/logo.png" alt="">
-        
-    </div>
-    <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Home</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Students</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Teachers</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Subjects</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Monthly report</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Overall report</a></li>
-                <li class="navbar-list-item"><a href="#" class="navbar-link">Attendance</a></li>
-            </ul>
-        </nav>
-  </div>
-  <div class="profile-popup">
-    <a href="#"><ion-icon name="person-outline"></ion-icon> Profile</a>
-    <a href="#"><ion-icon name="log-out-outline"></ion-icon> Logout</a>
-  </div>
+ 
 <!-- ================ Custom JS file============== -->
 
 <script src="header.js"></script>
+
+ <!-- ============================ Bootstrap JS Link====================== -->
+ <script src="./bootstrap/js/bootstrap.js"></script>
 
 <!-- =============== ionicons Links=============== -->
 
