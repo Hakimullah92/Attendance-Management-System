@@ -15,7 +15,7 @@ body
 }
 
 .carousel-item{
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     height:100vh;
     min-height:300px;
     background: no-repeat scroll center scroll;

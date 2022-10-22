@@ -22,9 +22,11 @@
   <nav class="navbar navbar-light bg-primary fixed-top">
   <div class="container-fluid pt-3 pb-3 ps-5 pe-5">
     <a class="navbar-brand fs-1 fw-bold text-white animate__animated animate__zoomIn animate__delay-1s animate__infinite " href="#">AMS</a>
+    <h1 class="title text-warning fs-1 fw-bold">Attendance Management System</h1>
     <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-      <span class="navbar-toggler-icon text-white fs-4"></span>
+      <span class="navbar-toggler-icon fs-4"></span>
     </button>
+    
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title text-warning text-center fs-1" id="offcanvasDarkNavbarLabel">Attendance System</h5>
@@ -53,14 +55,16 @@
           <li class="nav-item">
             <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Take Attendance</a>
           </li>
+          <li class="nav-item bg-warning">
+            <a class="nav-link text-danger fs-2 mb-3 text-center" href="main.php">Logout</a>
+          </li>
           
         </ul>
       </div>
     </div>
   </div>
 </nav>
-  </header>
- 
+</header>
 <!-- ================ Custom JS file============== -->
 
 <script src="header.js"></script>
