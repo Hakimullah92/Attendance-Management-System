@@ -15,7 +15,7 @@
 
     <!-- ------------- Custom CSS File----------------------- -->
 
-    <link rel="stylesheet" href="students.css">
+    <link rel="stylesheet" href="teachers.css">
     
 </head>
 <body class='bg-success'>
@@ -24,7 +24,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5 text-danger" id="exampleModalToggleLabel">New Student Entry</h1>
+        <h1 class="modal-title fs-5 text-danger" id="exampleModalToggleLabel">New Teacher Entry</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -34,8 +34,8 @@
     <input type="text" class="form-control" id="inputEmail4" placeholder='Enter Name here'>
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Rollno</label>
-    <input type="number" class="form-control" id="inputPassword4">
+    <label for="inputPassword4" class="form-label">DOB</label>
+    <input type="date" class="form-control" id="inputPassword4">
   </div>
   <div class="col-md-4">
     <label for="inputAddress" class="form-label">Gender</label>
@@ -52,7 +52,7 @@
   </div>
   <div class="col-md-5">
     <label for="inputCity" class="form-label">Mobile</label>
-    <input type="number" class="form-control" id="inputCity">
+    <input type="number" class="form-control" id="inputCity" placeholder='03xxxxxxxxx'>
   </div>
   <div class="col-md-7">
     <label for="inputCity" class="form-label">Address</label>
@@ -63,27 +63,14 @@
     <input type="text" class="form-control" id="inputCity" placeholder="Department">
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label">Program</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>BSCS</option>
-      <option>BSCS</option>
-    </select>
+    <label for="inputCity" class="form-label">Degree</label>
+    <input type="text" class="form-control" id="inputCity" placeholder="Degree">
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label">Semester</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>BS 1st</option>
-      <option>BS 2nd</option>
-      <option>BS 3rd</option>
-      <option>BS 4th</option>
-      <option>BS 5th</option>
-      <option>BS 6th</option>
-      <option>BS 7th</option>
-      <option>BS 8th</option>
-    </select>
+    <label for="inputCity" class="form-label">Salary</label>
+    <input type="number" class="form-control" id="inputCity" placeholder="20000">
   </div>
+
 </form>
       </div>
       <div class="modal-footer">
@@ -95,14 +82,14 @@
 </div>
 
 
-             <!-- =============  student Section======================= -->
-<section id="students">
-<h1 class="title text-center text-danger fs-1 fw-bold text-uppercase animate__animated animate__bounce animate__delay-2s animate__repeat-infinite">Students</h1>
+             <!-- =============  Teacher Section======================= -->
+<section id="Teachers">
+<h1 class="title text-center text-danger fs-1 fw-bold text-uppercase animate__animated animate__bounce animate__delay-2s animate__repeat-infinite">Teachers</h1>
 <div class="container">
     <div class="row justify-content-center mt-5">
         <div class="col-md-10 news shadow p-2 bg-danger">
          <div class="col-md-12 new bg-light d-flex justify-content-between ps-2 pe-2 pt-1 pb-1">
-            <h4 class="text-capitalize text-danger">student list</h4>
+            <h4 class="text-capitalize text-danger">Teachers list</h4>
             <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">New+</a>
          </div>
          <hr>
@@ -117,48 +104,48 @@
   <thead class="table-dark"> 
     <tr>
   <th>Name</th>  
-  <th>R.no</th>  
+  <th>DOB</th>  
   <th>Gender</th>  
   <th>Phone.no</th>  
   <th>Address</th>  
   <th>Department</th>  
-  <th>Program</th>  
-  <th>Semester</th>  
+  <th>Degree</th>  
+  <th>Salary</th>  
   <th>Action</th>  
   </tr>
 </thead>
 <tbody>
 <tr class='bg-light'>
-    <td>Junaid Khan</td>
-    <td>18</td>
+    <td>Pir Masoom Shah</td>
+    <td>1992</td>
     <td>Male</td>
-    <td>03189171479</td>
-    <td>Peshawar</td>
+    <td>0318xxxxxxxx</td>
+    <td>Mardan</td>
     <td>Computer Science</td>
-    <td>BSCS</td>
-    <td>7th(A)</td>
+    <td>MSCS</td>
+    <td>50000</td>
     <td><a class="link text-decoration-none bg-primary text-light pt-1 pb-1 ps-3 pe-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Edit</a> <a href="#" class="link text-decoration-none bg-danger text-light pt-1 pb-1 ps-2 pe-2">Delete</a></td>
 </tr>
 <tr class='bg-light'>
-    <td>Hakim Ullah</td>
-    <td>57</td>
-    <td>Male</td>
-    <td>03089487568</td>
-    <td>Peshawar</td>
+    <td>Najia Naz</td>
+    <td>1990</td>
+    <td>female</td>
+    <td>0308xxxxxxx</td>
+    <td>Charsadda</td>
     <td>Computer Science</td>
-    <td>BSCS</td>
-    <td>5th(B)</td>
+    <td>MSCS</td>
+    <td>45000</td>
     <td><a class="link text-decoration-none bg-primary text-light pt-1 pb-1 ps-3 pe-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Edit</a> <a href="#" class="link text-decoration-none bg-danger text-light pt-1 pb-1 ps-2 pe-2">Delete</a></td>
 </tr>
 <tr class='bg-light'>
-    <td>Salman Khan</td>
-    <td>53</td>
+    <td>Adnan Wadood</td>
+    <td>1986</td>
     <td>Male</td>
-    <td>03089487568</td>
-    <td>Peshawar</td>
-    <td>Computer Science</td>
-    <td>BSCS</td>
-    <td>5th(B)</td>
+    <td>0308xxxxxxx</td>
+    <td>Charsadda</td>
+    <td>Mathematics</td>
+    <td>PHD Maths</td>
+    <td>80000</td>
     <td><a class="link text-decoration-none bg-primary text-light pt-1 pb-1 ps-3 pe-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Edit</a> <a href="#" class="link text-decoration-none bg-danger text-light pt-1 pb-1 ps-2 pe-2">Delete</a></td>
 </tr>
 </tbody>
@@ -170,7 +157,7 @@
 
 <!-- ----------------- Custom JS file ---------------------- -->
 
-<script src="students.js"></script>
+<script src="teacherss.js"></script>
 
 <!-- ----------------------- bootstrap JS File------------------ -->
 <script src="./bootstrap/js/bootstrap.js"></script>
