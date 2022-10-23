@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="teachers.css">
     
 </head>
-<body class='bg-success'>
+<body>
            <!-- ------------------- New Student Entry Form ------------------------ -->
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
@@ -87,7 +87,7 @@
 <h1 class="title text-center text-danger fs-1 fw-bold text-uppercase animate__animated animate__bounce animate__delay-2s animate__repeat-infinite">Teachers</h1>
 <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col-md-10 news shadow p-2 bg-danger">
+        <div class="col-md-10 news shadow p-2 bg-white">
          <div class="col-md-12 new bg-light d-flex justify-content-between ps-2 pe-2 pt-1 pb-1">
             <h4 class="text-capitalize text-danger">Teachers list</h4>
             <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">New+</a>

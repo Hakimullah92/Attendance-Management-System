@@ -1,3 +1,8 @@
+body{
+    background:url(./images/Reports/1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #students{
     margin: 5rem auto;
 }

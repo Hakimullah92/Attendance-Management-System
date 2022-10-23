@@ -47,9 +47,6 @@
             <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Subjects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Monthly Reports</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link link text-light fs-2 mb-3 text-center" href="#">Overall Reports</a>
           </li>
           <li class="nav-item">

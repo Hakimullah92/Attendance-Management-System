@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="students.css">
     
 </head>
-<body class='bg-success'>
+<body>
            <!-- ------------------- New Student Entry Form ------------------------ -->
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
@@ -100,7 +100,7 @@
 <h1 class="title text-center text-danger fs-1 fw-bold text-uppercase animate__animated animate__bounce animate__delay-2s animate__repeat-infinite">Students</h1>
 <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col-md-10 news shadow p-2 bg-danger">
+        <div class="col-md-10 news shadow p-2 bg-white">
          <div class="col-md-12 new bg-light d-flex justify-content-between ps-2 pe-2 pt-1 pb-1">
             <h4 class="text-capitalize text-danger">student list</h4>
             <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">New+</a>
@@ -128,7 +128,7 @@
   </tr>
 </thead>
 <tbody>
-<tr class='bg-light'>
+<tr class='bg-white'>
     <td>Junaid Khan</td>
     <td>18</td>
     <td>Male</td>
@@ -139,7 +139,7 @@
     <td>7th(A)</td>
     <td><a class="link text-decoration-none bg-primary text-light pt-1 pb-1 ps-3 pe-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Edit</a> <a href="#" class="link text-decoration-none bg-danger text-light pt-1 pb-1 ps-2 pe-2">Delete</a></td>
 </tr>
-<tr class='bg-light'>
+<tr class='bg-white'>
     <td>Hakim Ullah</td>
     <td>57</td>
     <td>Male</td>
@@ -150,7 +150,7 @@
     <td>5th(B)</td>
     <td><a class="link text-decoration-none bg-primary text-light pt-1 pb-1 ps-3 pe-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Edit</a> <a href="#" class="link text-decoration-none bg-danger text-light pt-1 pb-1 ps-2 pe-2">Delete</a></td>
 </tr>
-<tr class='bg-light'>
+<tr class='bg-white'>
     <td>Salman Khan</td>
     <td>53</td>
     <td>Male</td>
